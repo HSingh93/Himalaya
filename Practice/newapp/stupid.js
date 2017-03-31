@@ -1,0 +1,1 @@
+//# sourceMappingURL=stupid.js.map
