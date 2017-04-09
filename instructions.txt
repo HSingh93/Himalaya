@@ -1,4 +1,4 @@
-
+# To add tab autocomplete/cycling to terminal, modify '/etc/inputrc' adding the following:
 
 # mappings for making up and down arrow searching through history:
 "\e[A": history-search-backward
