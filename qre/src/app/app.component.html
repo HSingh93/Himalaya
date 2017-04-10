@@ -1,7 +1,7 @@
   
 <div class="container-fluid">
   
-  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+  <nav class="navbar navbar-toggleable-md navbar-light bg-faded" style="height: 5%">
     <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -19,7 +19,44 @@
     </div>
   </nav>
 
-
+  <div id="main_content" style="height: 95%">
+    <div class="row">
+      <div class="col-md-3">
+          <ul class="list-group">
+            <li class="list-group-item">Cras justo odio</li>
+            <li class="list-group-item">Dapibus ac facilisis in</li>
+            <li class="list-group-item">Morbi leo risus</li>
+            <li class="list-group-item">Porta ac consectetur ac</li>
+            <li class="list-group-item">Vestibulum at eros</li>
+          </ul>
+      </div>
+      <div class="col-md-9">
+          <ngb-carousel>
+            <template ngbSlide>
+              <img src="http://lorempixel.com/900/500?r=1" alt="Random first slide">
+              <div class="carousel-caption">
+                <h3>First slide label</h3>
+                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+              </div>
+            </template>
+            <template ngbSlide>
+              <img src="http://lorempixel.com/900/500?r=2" alt="Random second slide">
+              <div class="carousel-caption">
+                <h3>Second slide label</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+              </div>
+            </template>
+            <template ngbSlide>
+              <img src="http://lorempixel.com/900/500?r=3" alt="Random third slide">
+              <div class="carousel-caption">
+                <h3>Third slide label</h3>
+                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+              </div>
+            </template>
+          </ngb-carousel>
+      </div>
+    </div>
+  </div>
 
 </div>
 
