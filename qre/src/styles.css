@@ -5,3 +5,7 @@
 h3 {
     text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
+
+ngb-carousel > template > img {
+    margin: 0 auto;
+}
