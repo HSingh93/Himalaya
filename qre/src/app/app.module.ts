@@ -6,11 +6,12 @@ import { RouterModule } from '@angular/router';
 
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppComponent } from './app.component';
-
 import { NotFoundComponent } from './not-found.component';
 
 import { HomeComponent } from './components/home/home.component';
 import { CalculationComponent } from './components/calculation/calculation.component';
+
+import { PropertyAnalysisService } from './services/property-analysis.service';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,7 @@ import { CalculationComponent } from './components/calculation/calculation.compo
       }
     ])
   ],
-  providers: [],
+  providers: [PropertyAnalysisService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
